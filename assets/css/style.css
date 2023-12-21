@@ -5,6 +5,24 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/* Fonts */
+/* :root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Work Sans", sans-serif;
+} */
+
+/* Colors */
+/* :root {
+  --color-default: #364d59;
+  --color-primary: #37517e;
+  --color-secondary: #52565e;
+} */
+
+/* Smooth scroll behavior */
+/* :root {
+  scroll-behavior: smooth;
+} */ 
 
 /*--------------------------------------------------------------
 # General
@@ -917,7 +935,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Feedback
+# feedback
 --------------------------------------------------------------*/
 .feedback {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/feedback-bg.jpg") fixed center center;
@@ -1674,7 +1692,7 @@ section {
 }
 
 #footer .footer-newsletter {
-  padding: 50px 0;
+  padding: 40px 0;
   background: #f3f5fa;
   text-align: center;
   font-size: 15px;
@@ -1728,11 +1746,14 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1);
+  background: #f3f5fa;
+  
 }
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  margin-right: 20px;
 }
 
 #footer .footer-top .footer-contact h3 {
@@ -1807,7 +1828,7 @@ section {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 3.5px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1874,7 +1895,7 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 0 15px 30px 0;
   min-height: 200px;
-  box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1);
+  /* box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1); */
   position: relative;
   background: #fff;
 }
@@ -1948,7 +1969,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #37517e;
 }
 
 @media (max-width: 767px) {
@@ -1971,3 +1992,4 @@ section {
     left: auto;
   }
 }
+
