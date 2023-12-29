@@ -2263,3 +2263,17 @@ section {
   }
 }
 
+/* Gas Sensor Styling */
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}
+.nav-pills .nav-link.active {
+  background-color: #00B4D8;
+  color: #fff;
+}
