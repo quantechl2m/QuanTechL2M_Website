@@ -613,6 +613,26 @@ section {
   margin: 0;
 }
 
+.greater-gap .row-cols-4 > * {
+  margin-left: 20px; /* Adjust the value as needed */
+  margin-left: 20px; /* Adjust the value as needed */
+
+}
+.card-body button {
+  background-color: #0077B6; 
+  color: #fff; 
+  margin: 3px 6px;
+  padding: 12px 24px; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-body button:hover {
+  background-color: #00B4D8;
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -775,7 +795,7 @@ section {
 
 .about .about-img {
   min-height: 600px;
-  background-size: cover;
+  background-size: ccontain;
   background-position: center;
 }
 
