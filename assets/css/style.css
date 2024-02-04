@@ -129,11 +129,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: #ffffff;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #0077B6;
+  background: #fff;
 }
 
 #header .logo {
@@ -184,7 +185,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 700;
-  color: #fff;
+  color: #4893e4;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -409,11 +410,12 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 10px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -472,7 +474,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 80vh;
     text-align: center;
   }
 
@@ -531,7 +533,7 @@ h6 {
 --------------------------------------------------------------*/
 .hero {
   overflow-x: hidden;
-  padding: 0;
+  padding:10px;
 }
 
 .hero .carousel {
@@ -620,7 +622,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 5% 0%;
   overflow: hidden;
 }
 
