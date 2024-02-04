@@ -292,7 +292,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #023E8A;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -343,7 +343,7 @@ h6 {
   border-radius: 10px;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .navbar-mobile a,
@@ -472,53 +472,6 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 991px) {
-  #hero {
-    height: 80vh;
-    text-align: center;
-  }
-
-  #hero .animated {
-    animation: none;
-  }
-
-  #hero .hero-img {
-    text-align: center;
-  }
-
-  #hero .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-
-  #hero .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
-
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
 @keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -528,9 +481,6 @@ h6 {
     transform: translateY(-10px);
   }
 }
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   overflow-x: hidden;
   padding:10px;
@@ -617,7 +567,52 @@ h6 {
 .hero .carousel-control-next:hover {
   opacity: 0.9;
 }
+@media (max-width: 991px) {
+  #hero {
+    height: 80vh;
+    text-align: center;
+  }
 
+  #hero .hero-img {
+    text-align: center;
+  }
+
+  #hero .hero-img img {
+    width: 50%;
+  }
+  #hero .btn-get-started {
+    display:flex;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+    display: block;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -2243,6 +2238,10 @@ section {
 }
 
 @media (max-width: 768px) {
+  #footer{
+    text-align: center;
+    justify-content:space-around;
+  }
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
