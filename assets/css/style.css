@@ -2771,3 +2771,237 @@ section {
       .icon-line-briefcase {
         content: "\e015";
       }
+
+
+      .block__19738 {
+        text-align: center; }
+        .block__19738 [class^="icon-"], .block__19738 [class^="flaticon-"] {
+          font-size: 2.5rem; }
+        .block__19738 .number {
+          font-size: 3.2rem;
+          font-weight: 900;
+          color: #fff; }
+        .block__19738 .caption {
+          font-size: 1rem;
+          display: block;
+          color: rgba(255, 255, 255, 0.7); }
+      
+      .block__62849 .block__16443 {
+        background: #fff;
+        padding: 30px;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        top: 0;
+        position: relative;
+        text-decoration: none; }
+        .block__62849 .block__16443 .custom-icon {
+          display: block;
+          position: relative;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          border: 1px solid #89ba16;
+          background: #89ba16;
+          margin-bottom: 1.5rem;
+          -webkit-transition: .3s all ease;
+          -o-transition: .3s all ease;
+          transition: .3s all ease; }
+          .block__62849 .block__16443 .custom-icon:before {
+            display: none;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            content: "";
+            width: 90px;
+            height: 90px;
+            border: 1px solid rgba(137, 186, 22, 0.2); }
+        .block__62849 .block__16443 [class^="icon-"], .block__62849 .block__16443 [class^="flaticon-"] {
+          font-size: 1.6rem;
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          -webkit-transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+          -o-transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+          transition: 0.3s all cubic-bezier(0.66, 0.2, 0.48, 0.9); }
+        .block__62849 .block__16443 h3 {
+          font-size: 1.2rem;
+          margin-bottom: 1.2rem; }
+        .block__62849 .block__16443 p {
+          color: #7f848c; }
+        .block__62849 .block__16443:hover {
+          top: -20px;
+          -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2); }
+          @media (max-width: 991.98px) {
+            .block__62849 .block__16443:hover {
+              top: 0; } }
+          .block__62849 .block__16443:hover .custom-icon {
+            background: transparent; }
+            .block__62849 .block__16443:hover .custom-icon [class^="icon-"], .block__62849 .block__16443:hover .custom-icon [class^="flaticon-"] {
+              color: #89ba16; }
+      
+      .block__87154 {
+        position: relative;
+        background: #f8f9fa;
+        padding: 30px;
+        margin-bottom: 2rem;
+        border-radius: 7px; }
+        .block__87154.bg-primary {
+          -webkit-box-shadow: 0 5px 30px -5px rgba(137, 186, 22, 0.8);
+          box-shadow: 0 5px 30px -5px rgba(137, 186, 22, 0.8); }
+          .block__87154.bg-primary p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            font-style: italic; }
+        .block__87154 *:last-child {
+          margin-bottom: 0; }
+        .block__87154 .quote {
+          position: absolute;
+          -webkit-transform: translateY(-150%);
+          -ms-transform: translateY(-150%);
+          transform: translateY(-150%); }
+        .block__87154 blockquote {
+          margin-bottom: 1.6rem; }
+          .block__87154 blockquote p {
+            font-size: 1.2rem; }
+        .block__87154 .block__91147 figure {
+          margin-bottom: 0; }
+        .block__87154 .block__91147 img {
+          max-width: 40px;
+          border-radius: 50%;
+          margin: 0px;
+          padding: 0; }
+        .block__87154 .block__91147 h3 {
+          margin: 0px;
+          padding: 0;
+          font-size: 1rem; }
+        .block__87154 .position {
+          font-size: .8rem;
+          color: #adb5bd; }
+          .block__87154 .position.position-2 {
+            color: rgba(255, 255, 255, 0.6); }
+      
+      .block__96788 {
+        position: relative;
+        display: block; }
+        .block__96788 .play-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background: #fff;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          .block__96788 .play-icon span {
+            font-size: .8rem;
+            color: #000;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+      
+      .block__86547 {
+        position: relative;
+        background: #f8f9fa;
+        overflow: hidden;
+        border-radius: 4px;
+        -webkit-transition: 0.2s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+        -o-transition: 0.2s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+        transition: 0.2s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
+        top: 0; }
+        .block__86547 figure {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 180px;
+          flex: 0 0 180px;
+          margin-bottom: 0;
+          background-size: cover;
+          background-position: center center; }
+          @media (max-width: 1199.98px) {
+            .block__86547 figure {
+              height: 200px; } }
+        .block__86547 > div {
+          padding: 40px; }
+          .block__86547 > div h3 {
+            font-size: 1.4rem; }
+            .block__86547 > div h3 a {
+              color: #000; }
+              .block__86547 > div h3 a:hover {
+                text-decoration: none; }
+          .block__86547 > div .block__27192 > a {
+            font-size: .9rem;
+            display: inline-block;
+            margin: 10px 20px;
+            margin-left: 0;
+            color: #495057; }
+            .block__86547 > div .block__27192 > a span {
+              color: #adb5bd; }
+            .block__86547 > div .block__27192 > a:hover {
+              text-decoration: none; }
+        .block__86547:hover {
+          top: -10px;
+          background: #fff;
+          -webkit-box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.2); }
+      
+      .block__45439 {
+        padding: 7em 0; }
+      
+      .block__69944 .text-muted {
+        color: #ced4da !important; }
+      
+      .block__76208 .accordion-item .heading {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 0; }
+        .block__76208 .accordion-item .heading > a {
+          padding-left: 35px;
+          position: relative;
+          color: #000; }
+          .block__76208 .accordion-item .heading > a:before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            line-height: 18px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 18px;
+            top: .1em;
+            left: 0;
+            border-radius: 50%; }
+          .block__76208 .accordion-item .heading > a[aria-expanded="true"]:before {
+            font-family: 'icomoon';
+            position: absolute;
+            content: "\e316";
+            -webkit-transition: .3s all ease;
+            -o-transition: .3s all ease;
+            transition: .3s all ease;
+            background: #89ba16;
+            color: #fff;
+            border: 1px solid #89ba16; }
+          .block__76208 .accordion-item .heading > a[aria-expanded="false"]:before {
+            content: "\e313";
+            color: #ccc;
+            font-family: 'icomoon';
+            position: absolute;
+            -webkit-transition: .3s all ease;
+            -o-transition: .3s all ease;
+            transition: .3s all ease; }
+      
+      .block__76208 .accordion-item .body-text {
+        font-size: 16px;
+        padding: 5px 0;
+        padding-left: 30px; }
