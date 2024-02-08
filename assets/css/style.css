@@ -152,7 +152,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 75px;
 }
 
 /*--------------------------------------------------------------
@@ -2231,10 +2231,12 @@ section {
 #footer .credits {
   float: right;
   font-size: 13px;
+  
 }
 
 #footer .credits a {
   transition: 0.3s;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -2772,3 +2774,4 @@ section {
       .icon-line-briefcase {
         content: "\e015";
       }
+
