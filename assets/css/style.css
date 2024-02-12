@@ -502,9 +502,17 @@ h6 {
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
-  transition-duration: 0.4s;
+  /*  transition-duration: 0.4s; */
 }
 
+.hero .carousel-item .hero-background{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.teamphoto1{
+  background-image: url('assets/img/team photo (1).png');
+}
 .hero .carousel-item::before {
   content: "";
   position: absolute;
@@ -555,7 +563,7 @@ h6 {
 .hero .carousel-control-prev,
 .hero .carousel-control-next {
   z-index: 3;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 .hero .carousel-control-prev:focus,
@@ -569,17 +577,24 @@ h6 {
 }
 @media (max-width: 991px) {
   #hero {
-    height: 80vh;
+    height: 100vh;
     text-align: center;
   }
 
   #hero .hero-img {
     text-align: center;
   }
+  #hero .hero-background {
+    background-size: cover;
+  background-position: center;
+
+
+  }
 
   #hero .hero-img img {
     width: 50%;
   }
+
   #hero .btn-get-started {
     display:flex;
   }
