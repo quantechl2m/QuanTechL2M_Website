@@ -50,3 +50,57 @@
     transform: scale(1);
   }
   
+
+
+
+  /*Invert Button Style */
+.invert-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: white;
+  color: #0077B6;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, padding 0.3s, border-radius 0.3s; /* Include padding and border-radius transition */
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Effect */
+.invert-button:hover {
+  background-color: white;
+  color: #0287cf;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  padding: 12px 24px; /* Increase padding on hover */
+  border-radius: 25px; /* Increase border-radius on hover */
+}
+
+/* Additional Styling (Optional) */
+.invert-button:focus {
+  outline: none;
+}
+
+.invert-button:active {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* Animation Effect */
+.invert-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: border-color 0.3s, transform 0.3s;
+  z-index: -1;
+  transform: scale(0);
+}
+
+.invert-button:hover::after {
+  border-color: #fff;
+  transform: scale(1);
+}
