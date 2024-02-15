@@ -1,4 +1,92 @@
-CSS
+/* Carousel Section */
+.carousel {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 0;
+  margin: 0;
+  position: relative;
+}
+
+.carousel-item {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  /*  transition-duration: 0.4s; */
+}
+
+.carousel-item .hero-background{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.info {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.carousel-control-prev {
+  justify-content: start;
+}
+
+@media (min-width: 640px) {
+  .carousel-control-prev {
+    padding-left: 15px;
+  }
+}
+
+.carousel-control-next {
+  justify-content: end;
+}
+
+@media (min-width: 640px) {
+  .carousel-control-next {
+    padding-right: 15px;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: none;
+  font-size: 26px;
+  line-height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3;
+}
+
+.hero .carousel-control-prev:focus,
+.hero .carousel-control-next:focus {
+  opacity: 0.5;
+}
+
+.hero .carousel-control-prev:hover,
+.hero .carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+
+/* Products Page */
 .products {
   padding: 40px 0; /* Add some padding */
   align-items: center;
