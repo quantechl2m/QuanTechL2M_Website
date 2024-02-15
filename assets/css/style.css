@@ -411,7 +411,6 @@ h6 {
 
 #hero .container {
   padding-top: 10%;
-  padding-bottom: 10%;
 }
 
 #hero h1 {
@@ -483,7 +482,6 @@ h6 {
 }
 .hero {
   overflow-x: hidden;
-  padding:10px;
 }
 
 .hero .carousel {
