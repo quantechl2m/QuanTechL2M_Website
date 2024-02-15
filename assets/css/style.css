@@ -508,9 +508,6 @@ h6 {
   background-size: cover;
   background-position: center;
 }
-.teamphoto1{
-  background-image: url('assets/img/team photo (1).png');
-}
 .hero .carousel-item::before {
   content: "";
   position: absolute;
@@ -590,7 +587,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 70%;
   }
 
   #hero .btn-get-started {
