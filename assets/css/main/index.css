@@ -1,0 +1,37 @@
+  .card-link :hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    }
+  .products {
+    padding: 40px 0; /* Add some padding */
+    }
+  
+  .product-grid {
+    gap: 30px; /* Adjust gap as needed */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Subtle hover scale */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 20px; /* Match card radius */
+  }
+  
+  .card-body {
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-body:hover {
+    background-color: #f2f2f2; /* Subtle background tint on hover */
+  }
+  
