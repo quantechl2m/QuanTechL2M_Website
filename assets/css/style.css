@@ -128,7 +128,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;
   background: #ffffff;
 }
 
@@ -138,7 +138,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -152,7 +152,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -423,7 +423,7 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 24px;
 }
 
@@ -500,9 +500,17 @@ h6 {
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
-  transition-duration: 0.4s;
+  /*  transition-duration: 0.4s; */
 }
 
+.hero .carousel-item .hero-background{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.teamphoto1{
+  background-image: url('assets/img/team photo (1).png');
+}
 .hero .carousel-item::before {
   content: "";
   position: absolute;
@@ -553,7 +561,7 @@ h6 {
 .hero .carousel-control-prev,
 .hero .carousel-control-next {
   z-index: 3;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 .hero .carousel-control-prev:focus,
@@ -567,17 +575,24 @@ h6 {
 }
 @media (max-width: 991px) {
   #hero {
-    height: 80vh;
+    height: 100vh;
     text-align: center;
   }
 
   #hero .hero-img {
     text-align: center;
   }
+  #hero .hero-background {
+    background-size: cover;
+  background-position: center;
+
+
+  }
 
   #hero .hero-img img {
     width: 50%;
   }
+
   #hero .btn-get-started {
     display:flex;
   }
@@ -615,7 +630,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 5% 0%;
+  padding: 0% 0%;
   overflow: hidden;
 }
 
@@ -625,15 +640,16 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   position: relative;
   color: #0077B6;
 }
@@ -754,7 +770,7 @@ section {
 
 .about .content ul {
   list-style: none;
-  padding: 0;
+  padding: 0 0;
 }
 
 .about .content ul li {
@@ -763,7 +779,7 @@ section {
 }
 
 .about .content ul li+li {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .about .content ul i {
@@ -779,7 +795,7 @@ section {
   margin-bottom: 0;
 }
 
-.about .content .btn-learn-more {
+.about .content-div button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -789,7 +805,7 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #00B4D8;
+  color: #0077B6;
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #00B4D8;
@@ -804,7 +820,7 @@ section {
   font-size: 48px;
   font-weight: 700;
   font-family: var(--font-secondary);
-  margin: 30px 0;
+  margin: 5px 0;
 }
 
 @media (min-width: 991px) {
@@ -815,7 +831,7 @@ section {
 }
 
 .about .our-story {
-  padding: 40px;
+  padding: 10px;
   background-color: #f5f6f7;
 }
 
@@ -890,6 +906,7 @@ section {
     right: 0;
   }
 }
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -1353,7 +1370,7 @@ section {
 .team .member .pic {
   overflow: hidden;
   width: 180px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .team .member .pic img {
@@ -1869,6 +1886,10 @@ section {
   }
 }
 
+#contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1916,7 +1937,7 @@ section {
 --------------------------------------------------------------*/
 #breadcrumbs {
   width: 100%;
-  height: 35vh;
+  height: auto;
   background: #0077B6;
   padding: 140px 0 60px 0;
   position: relative;
@@ -2062,10 +2083,10 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #0077B6;
+   background: #003B5B;
 }
 
-#footer .footer-newsletter {
+/* #footer .footer-newsletter {
   padding: 40px 0;
   background: #f3f5fa;
   text-align: center;
@@ -2116,12 +2137,12 @@ section {
 
 #footer .footer-newsletter form input[type=submit]:hover {
   background: #209dd8;
-}
+} */
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
   box-shadow: 0px 2px 20px rgba(82, 86, 94, 0.1);
-  background: #f3f5fa;
+  background: #0077B6;
   
 }
 
@@ -2135,9 +2156,9 @@ section {
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  text-transform: uppercase;
+  
   font-weight: 600;
-  color: #0077B6;
+  color: #fff;
 }
 
 #footer .footer-top .footer-contact p {
@@ -2145,13 +2166,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: #fff;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #0077B6;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2168,7 +2189,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #00B4D8;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -2184,7 +2205,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2192,7 +2213,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #00B4D8;
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
@@ -2217,9 +2238,9 @@ section {
 }
 
 #footer .footer-bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
 }
 
 #footer .copyright {
@@ -2229,10 +2250,12 @@ section {
 #footer .credits {
   float: right;
   font-size: 13px;
+  
 }
 
 #footer .credits a {
   transition: 0.3s;
+  color: #00B4D8;
 }
 
 @media (max-width: 768px) {
@@ -2386,11 +2409,6 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About us Section
---------------------------------------------------------------*/
-
-  
   .team_area{background:#fbfafa;}
   .team_title {
       color: #000;
@@ -2558,8 +2576,8 @@ section {
   }
   
   .section-padding {
-      padding: 30px 0;
-      padding-top: 40px;
+      padding: 10px 0;
+      padding-top: 20px;
   }
   
   .title_spectial {
@@ -2601,7 +2619,8 @@ section {
 # Service Details
 --------------------------------------------------------------*/
 .service-details {
-  padding-bottom: 10px;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 .service-details .card {
@@ -2757,8 +2776,8 @@ section {
 --------------------------------------------------------------*/
 
 .site-section {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   position: relative;
   z-index: 2; }
   
@@ -2770,3 +2789,12 @@ section {
       .icon-line-briefcase {
         content: "\e015";
       }
+
+.outer-boundary {
+  padding: 20px;
+}
+
+.content-div {
+  text-align: justify;
+  font-size: 18px; /* Increased font size */
+}
