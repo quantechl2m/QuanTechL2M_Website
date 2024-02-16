@@ -1858,9 +1858,8 @@ h6 {
   }
   
   .our-team .img-fluid {
-    width:  200px;
-    height: 220px;
-    object-fit: cover;
+    width:  200;
+    height: 200px;
 }
 
 
