@@ -149,7 +149,37 @@ h6 {
   position: relative;
 }
 
-.navbar a,
+.navbar a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #023E8A;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.nav-links a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 2;
+  width: 0%;
+  height: 3px;
+  background-color: #00B4D8;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  align-items: center;
+  
+}
+
+.nav-links a:hover:after {
+  opacity: 1;
+  width: 75%;
+
+}
+
 .navbar a:focus {
   display: flex;
   align-items: center;
@@ -161,6 +191,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+
 
 .navbar a i,
 .navbar a:focus i {
@@ -174,6 +205,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #00B4D8;
+
 }
 
 
