@@ -25,8 +25,11 @@ th {
 }
 
 @media (max-width: 768px) {
-  /* Add responsive styles here, e.g., adjust width or font size */
   table {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 90%;
+  }
+  .main-features-img {
+    width: 80%;
+    height: auto;
   }
 }

@@ -2,22 +2,26 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
+    margin: 5px;
     text-decoration: none;
     background-color: #0077B6;
     color: white;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, padding 0.3s, border-radius 0.3s; /* Include padding and border-radius transition */
     position: relative;
-    border-radius: 20px;
+    border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   /* Hover Effect */
   .button:hover {
-    background-color: #0287cf;
-    color: #fff;
+    background-color: #fff;
+    color: #0287cf;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
     padding: 12px 24px; /* Increase padding on hover */
-    border-radius: 25px; /* Increase border-radius on hover */
+    border-radius: 50px; /* Increase border-radius on hover */
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #0287cf;
   }
   
   /* Additional Styling (Optional) */
@@ -57,22 +61,26 @@
 .invert-button {
   display: inline-block;
   padding: 10px 20px;
+  margin: 5px;
   text-decoration: none;
   background-color: white;
   color: #0077B6;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, padding 0.3s, border-radius 0.3s; /* Include padding and border-radius transition */
   position: relative;
-  border-radius: 20px;
+  border-radius: 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Hover Effect */
 .invert-button:hover {
-  background-color: white;
-  color: #0287cf;
+  background-color: #0287cf;
+  color: #fff;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
   padding: 12px 24px; /* Increase padding on hover */
-  border-radius: 25px; /* Increase border-radius on hover */
+  border-radius: 50px; /* Increase border-radius on hover */
+  transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
 }
 
 /* Additional Styling (Optional) */

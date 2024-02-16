@@ -137,3 +137,24 @@
 .flowchart-img:hover {
   transform: scale(1.01);
 }
+
+
+/* About Us section */
+
+.about-content {
+  padding: 2%;
+  text-align: justify;
+  margin-bottom: 20px; /* Added spacing */
+}
+
+iframe {
+  border: none;
+  width: 75%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .col-lg-6 {
+    width: 100%;
+  }
+}
