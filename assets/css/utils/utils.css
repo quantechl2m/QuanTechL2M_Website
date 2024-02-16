@@ -105,5 +105,59 @@
   transform: scale(1);
 }
 
+<<<<<<< HEAD
 
 
+=======
+/* Section CSS */
+section {
+  padding: 0% 0%;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  color: #0077B6;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #00B4D8;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+>>>>>>> e152a1bd57fb76642fd8da66c2d98ffc87ea7535
