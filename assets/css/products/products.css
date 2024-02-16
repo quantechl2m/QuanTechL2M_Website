@@ -1,0 +1,32 @@
+.main-features-img{
+  width: 60%;
+  height: auto;
+  padding-bottom: 2%;
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95), box-shadow 0.3s ease-in-out;; /* Move transition property here */
+  transform-origin: center center; /* Set transform origin to center */
+  display: block; /* Ensure element is inline-block or block-level */
+  margin: 0 auto; /* Horizontally center the element */
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto; /* Center align table */
+  width: 60%; /* Set table width */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  /* Add responsive styles here, e.g., adjust width or font size */
+  table {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}

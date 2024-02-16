@@ -1,0 +1,139 @@
+/* Carousel Section */
+.carousel {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 0;
+  margin: 0;
+  position: relative;
+}
+
+.carousel-item {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  /*  transition-duration: 0.4s; */
+}
+
+.carousel-item .hero-background{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.info {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.carousel-control-prev {
+  justify-content: start;
+}
+
+@media (min-width: 640px) {
+  .carousel-control-prev {
+    padding-left: 15px;
+  }
+}
+
+.carousel-control-next {
+  justify-content: end;
+}
+
+@media (min-width: 640px) {
+  .carousel-control-next {
+    padding-right: 15px;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: none;
+  font-size: 26px;
+  line-height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3;
+}
+
+.hero .carousel-control-prev:focus,
+.hero .carousel-control-next:focus {
+  opacity: 0.5;
+}
+
+.hero .carousel-control-prev:hover,
+.hero .carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+
+/* Products Page */
+.products {
+  padding: 40px 0; /* Add some padding */
+  align-items: center;
+  margin: 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Distribute evenly across row */
+  /* Remove redundant alignment classes */
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 80%; /* Adjust width for desired layout */
+  height: auto;
+  margin: 40px;
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Subtle hover scale */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 20px; /* Match card radius */
+}
+
+.card-body {
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-body:hover {
+  background-color: #f2f2f2; /* Subtle background tint on hover */
+}
+
+.flowchart-img {
+  width: 80%;
+  height: auto;
+  padding-bottom: 2%;
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95), box-shadow 0.3s ease-in-out;; /* Move transition property here */
+  transform-origin: center center; /* Set transform origin to center */
+}
+
+.flowchart-img:hover {
+  transform: scale(1.01);
+}
