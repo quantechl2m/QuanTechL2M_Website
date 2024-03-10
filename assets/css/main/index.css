@@ -1,3 +1,136 @@
+/* Hero Section */
+.hero {
+  width: 100%;
+  height: 80vh; /* Adjust height as needed */
+  background: #0077B6; /* Replace with a gradient or image background */
+  background-position: center top;  /* Adjust background position */
+}
+
+.hero .container {
+  padding-top: 10%;
+  text-align: center; /* Center text for mobile view */
+}
+
+.hero h1 {
+  margin: 0 0 30px 0; /* Adjust top margin */
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff; /* Consider a lighter color for better contrast */
+}
+
+.hero h2 {
+  color: rgba(255, 255, 255, 0.8); /* Adjust subtitle color */
+  font-size: 20px; /* Adjust subtitle font size */
+  margin-bottom: 20px; /* Adjust subtitle bottom margin */
+}
+
+.hero .btn-get-started,
+.hero .btn-watch-video {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 30px; /* Adjust button padding */
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0; /* Adjust button bottom margin */
+  background: #209dd8; /* Change button color */
+  color: #fff; /* Change button text color */
+}
+
+.hero .btn-get-started:hover,
+.hero .btn-watch-video:hover {
+  background: #00B4D8; /* Change button hover color */
+}
+
+.hero .btn-watch-video i {
+  line-height: 0;
+  color: #fff;
+  font-size: 32px;
+  transition: 0.3s;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover i {
+  color: #00B4D8; /* Change video button hover icon color */
+}
+
+.hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero {
+  overflow-x: hidden;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .hero {
+    height: 100vh; /* Fullscreen for smaller screens */
+  }
+
+  .hero .hero-img {
+    text-align: center;
+  }
+
+  .hero .hero-background {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero .hero-img img {
+    width: 80%;
+  }
+
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    display: block; /* Buttons stacked on mobile */
+    margin: 10px auto; /* Center buttons horizontally */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  .hero .hero-img img {
+    width: 90%; /* Adjust image width for better fit */
+  }
+}
+
+
+@media (max-width: 575px) {
+  .hero .hero-img img {
+    width: 100%; /* Image fills container on smallest screens */
+  }
+
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    font-size: 14px;
+    padding: 8px 20px; /* Adjust button padding for smaller fonts */
+  }
+}
+
+
 /* Carousel Section */
 .carousel {
   width: 100%;
@@ -15,14 +148,14 @@
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
-  /*  transition-duration: 0.4s; */
 }
 
-.carousel-item .hero-background{
+.carousel-item .hero-background {
   height: 100%;
   background-size: cover;
   background-position: center;
 }
+
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -84,6 +217,55 @@
 .hero .carousel-control-next:hover {
   opacity: 0.9;
 }
+
+/* Products Page */
+
+.products {
+  padding: 40px 0;
+  align-items: center;
+  margin: 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 80%;
+  height: auto;
+  margin: 40px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 20px;
+}
+
+.card-body {
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-body:hover {
+  background-color: #f2f2f2;
+}
+
+.flowchart-img {
+  width: 80%;
+  height: auto;
+  padding-bottom: 2%;
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95), box-shadow 0.3s ease-in-out;
+  transform-origin: center center;
+}
+
 
 
 /* Products Page */
