@@ -473,18 +473,18 @@ h6 {
 
 /* Section CSS */
 section {
-  padding: 0% 0%;
+  padding: 0% 2%;
   overflow: hidden;
 }
-
 .section-bg {
   background-color: #f3f5fa;
 }
 
 .section-title {
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin:auto;
 }
 
 .section-title h2 {
@@ -521,6 +521,11 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+@media (max-width: 768px){
+  .section-title {
+    margin-top:15%;
+  }
 }
 
 
