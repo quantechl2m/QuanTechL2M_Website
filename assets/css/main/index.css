@@ -233,7 +233,9 @@
 }
 
 .product-card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ECECEC;
+  border-radius: 10%;
+  box-shadow: 2 20px 40px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   width: 80%;
   height: auto;
@@ -242,7 +244,7 @@
 
 .product-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card-img-top {
@@ -250,6 +252,7 @@
 }
 
 .card-body {
+  background-color: #ECECEC;
   padding: 20px;
   transition: background-color 0.3s ease-in-out;
 }
