@@ -155,6 +155,8 @@
 }
 
 .carousel-item {
+  background-image: url('assets/img/BG5.jpg'); 
+  margin-top: 8%;
   position: absolute;
   inset: 0;
   background-size: cover;
@@ -169,6 +171,7 @@
   background-size: cover;
   background-position: center;
 }
+
 
 .carousel-item::before {
   content: "";
@@ -201,7 +204,6 @@
     padding-right: 15px;
   }
 }
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background: none;
@@ -356,5 +358,11 @@ iframe {
 @media (max-width: 992px) {
   .col-lg-6 {
     width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .carousel-item  {
+    background-image:none;
+    background-color: #0077b6;
   }
 }
