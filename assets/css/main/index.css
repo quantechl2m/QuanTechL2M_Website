@@ -25,7 +25,8 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Shadow for the text */
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+
 }
 
 .hero-img img {
@@ -38,30 +39,9 @@
   font-size: 20px; /* Adjust subtitle font size */
   margin-bottom: 20px; /* Adjust subtitle bottom margin */
 }
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
+.item1 {
+  background-image: url('../../img/BG5.jpg'); margin-top: 8%;
 }
-
-@media (max-width: 575px) {
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 14px;
-    padding: 8px 20px; /* Adjust button padding for smaller fonts */
-  }
-}
-
-/* Carousel Section */
 .carousel {
   width: 100%;
   min-height: 100vh;
@@ -141,17 +121,35 @@
 .hero .carousel-control-next:hover {
   opacity: 0.9;
 }
-/* Add blue background class */
+
 .blue-bg {
   background-color: #0077B6;
 }
 
-/* Remove background image */
 .carousel-item.active.blue-bg{
   background-image: none;
 }
 
-/* Media Query */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
 @media (max-width: 991px) {
   .blue-bg {
     background-color: #0077B6;
