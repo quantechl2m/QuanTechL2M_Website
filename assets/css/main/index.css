@@ -9,8 +9,9 @@
 }
 
 .hero .container {
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center; /* Center text for mobile view */
+
 }
 
 .hero-title {
@@ -171,7 +172,7 @@
 }
 
 .product-card {
-  background-color: #fff;
+  background-color: #ddf5fa;
   border-radius: 10%;
   box-shadow: 2 20px 40px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
