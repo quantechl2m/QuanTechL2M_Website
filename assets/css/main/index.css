@@ -30,9 +30,17 @@
 
 }
 
-.hero-img img {
-  max-width: 100%; /* Ensure images don't exceed container width */
-  height: auto; /* Maintain aspect ratio */
+
+.hero-img {
+  max-width: 150%; /* Set a fixed width */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.hero-img:hover  {
+  transform: scale(1.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .hero h2 {
