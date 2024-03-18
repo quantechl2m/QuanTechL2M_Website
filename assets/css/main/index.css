@@ -46,8 +46,8 @@
   
   .hero-link {
     width: 190%;
-    margin-right: 7%;
-    height: 180%; /* Set a fixed height for the images */
+    margin-right: 5%;
+    height: auto; /* Set a fixed height for the images */
   }
   
   .hero-link img {
