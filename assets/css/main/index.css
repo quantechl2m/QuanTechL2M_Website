@@ -32,13 +32,35 @@
 
 
 .hero-img {
-  max-width: 150%; /* Set a fixed width */
+  max-width: 150%; /* Set max-width to 100% for responsiveness */
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .col-lg-6.order-lg-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-link {
+    width: 100%;
+    margin-right: 7%;
+    height: 180px; /* Set a fixed height for the images */
+  }
+  
+  .hero-link img {
+    height: 100%; /* Make the image height fill the container */
+    width: auto; /* Let the width adjust based on image dimensions */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+}
 
-.hero-img:hover  {
+
+
+
+.hero-img:hover {
   transform: scale(1.15);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
