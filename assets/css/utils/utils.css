@@ -698,7 +698,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 10px;
+  border-radius: 10%;
   border: 6px solid #fff;
   position: absolute;
   left: -45px;
@@ -809,7 +809,7 @@ section {
 .feedback {
   background: linear-gradient(#0077B6, #0077B6), url("../img/feedback-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 75px 0;
+  padding: 75px 10px;
 }
 
 .feedback h3 {
