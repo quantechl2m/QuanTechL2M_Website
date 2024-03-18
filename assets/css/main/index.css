@@ -37,28 +37,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .col-lg-6.order-lg-2 {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-link {
-    width: 190%;
-    margin-right: 5%;
-    height: auto; /* Set a fixed height for the images */
-  }
-  
-  .hero-link img {
-    height: 100%; /* Make the image height fill the container */
-    width: auto; /* Let the width adjust based on image dimensions */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-  }
-}
-
-
-
 
 .hero-img:hover {
   transform: scale(1.15);
@@ -159,32 +137,6 @@
 
 .carousel-item.active.blue-bg{
   background-image: none;
-}
-
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 14px;
-    padding: 8px 20px;
-  }
-}
-@media (max-width: 991px) {
-  .blue-bg {
-    background-color: #0077B6;
-  }
 }
 
 /* Products Page */
@@ -320,4 +272,49 @@ iframe {
   }
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .col-lg-6.order-lg-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-link {
+    width: 190%;
+    margin-right: 5%;
+    height: auto; /* Set a fixed height for the images */
+  }
+  
+  .hero-link img {
+    height: 100%; /* Make the image height fill the container */
+    width: auto; /* Let the width adjust based on image dimensions */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+}
 
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
+@media (max-width: 991px) {
+  .blue-bg {
+    background-color: #0077B6;
+  }
+}
