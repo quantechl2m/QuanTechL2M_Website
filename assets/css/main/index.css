@@ -49,7 +49,7 @@
   margin-bottom: 20px; /* Adjust subtitle bottom margin */
 }
 .item1 {
-  background-image: url('../../img/bg7.jpg'); margin-top: 8%;
+  background-image: url('../../img/bg10.jpg'); margin-top: 8%;
 }
 .carousel {
   width: 100%;
@@ -63,7 +63,7 @@
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: left;
+  background-position:top;
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
