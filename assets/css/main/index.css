@@ -129,6 +129,14 @@
     padding-right: 15px;
   }
 }
+@media (min-width: 1600px) {
+  .offset-custom-9 {
+    margin-left: 85%; /* Custom offset for xxl */
+  }
+  .offset-custom-7 {
+    margin-left: 70%; /* Custom offset for xxl */
+  }
+}
 
 .hero .carousel-control-prev:focus,
 .hero .carousel-control-next:focus {
