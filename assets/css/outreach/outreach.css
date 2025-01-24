@@ -1,0 +1,32 @@
+.o-cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.o-img{
+border-radius: 30px;
+}
+.o-btn{
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.o-text{
+
+font-size :x-large ;
+margin: auto;
+font-weight: 900;
+color: #023e8a;
+
+}
+.hover-scale {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+  
